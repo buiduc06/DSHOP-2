@@ -1,0 +1,289 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+		background-image: url(../images/3.png);
+}
+button:hover{
+	cursor: pointer;
+}
+.container{
+width: 100%;
+height: auto;
+
+}
+.container .content{
+	width: 80%;
+	float: right;
+	height: 100%;
+	font-family: arial;
+
+
+}
+.content-show-info{
+	width: 80%;
+	height: auto;
+	margin: auto;
+}
+
+/*chuyen muc*/
+.chuyenmuc {
+	width: 90%;
+	height: 100%;
+	margin: auto;
+}
+.chuyenmuc table{
+	color: black;
+	border-collapse: collapse;
+	border: 1px solid green;
+
+}
+.chuyenmuc th{
+	width: 150px;
+	height: 30px;
+	border-bottom: 1px solid green;
+	background-color: green;
+	color: white;
+}
+.chuyenmuc tr td{
+	width: 150px;
+	height: 30px;
+	border: 1px solid green;
+	text-align: center;
+	
+}
+.table-chuyenmuc-top td a{
+	color: red;
+}
+.chuyenmuc p{
+	text-align: left;
+	margin: 1em;
+	color: green;
+	font-weight: bold;	
+}
+.chuyenmuc tbody td a{
+	color: blue;
+}
+
+.quanlysp tr td a img{
+	width: 110px;
+}
+
+
+/*phần menu bên trái*/
+.container .aside{
+	width: 20%;
+	float: left;
+	height: 100%;
+	background: #4e5665;
+	position: fixed;
+
+}
+
+/*phần avatar*/
+.aside-avatar{
+	width: 58%;
+	height: auto;
+	margin: auto;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+.aside-avatar p{
+	text-align: center;
+	color: rgba(255, 191, 8, 0.99);
+	font-size: 22px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+.aside-avatar img{
+	width: 150px;
+	height: 135px;
+	border-radius: 10px;
+}
+
+/*phần menu info*/
+.aside-info{
+	width: 100%;
+	height: auto;
+
+
+}
+.aside-info p a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	line-height: 40px;
+	margin-left: 20px;
+}
+.aside-info p:hover{
+	background-color: #83838c;
+}
+
+/*phần menu qlsp*/
+.aside-menu{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+.aside-menu b{
+	font-size: 20px;
+	font-weight: bold;
+	color: #4D86B1;
+	margin-left: 20px;
+}
+.aside-menu p a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 40px;
+	margin-left: 20px;
+}
+.aside-menu p:hover{
+	background-color: #83838c;
+}
+
+/*phần edit info*/
+.content h4{
+	font-size: 25px;
+	text-align: center;
+	margin-top: 50px;
+}
+.content-col1{
+	float: left;
+	width: 40%;
+	height: 250px;
+	text-align: center;
+	margin-top: 50px;
+}
+.content-col1 p{
+	font-size: 20px;
+}
+.content-col1 input{
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.content-col1-images{
+	width: 50%;
+	height: 180px;
+	margin: auto;
+	margin-top: 10px;
+}.content-col1-images img{
+	width: 95%;
+	height: 100%;
+	border-radius: 10px;
+}
+/*phan info 2*/
+.content-col2{
+	float: right;
+	width: 60%;
+	height: 250px;
+
+	margin-top: 50px;
+}
+.content-col2 table input{
+	width: 200px;
+	height: 30px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.content-col2 td{
+	padding-right: 50px;
+}
+.content form button{
+	width: 100px;
+	height: 30px;
+	margin-left: 500px;
+	border-radius: 5px;
+	border: 1px solid green;
+	color: white;
+	background: green;
+}
+.content-col2 table button:hover{
+	cursor: pointer;
+}
+
+#gender{
+	width: 80px;
+	height: 25px;
+
+}
+
+
+/*thong tin ca nha*/
+
+.thongtincanhan tr{
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.thongtincanhan a{
+	text-decoration: none;
+	color: blue;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.thongtincanhan a:hover{
+	text-decoration: underline;
+}
+.thongtincanhan b{
+	font-weight: 400;
+}
+
+/*thêm sản phẩm*/
+.createsp{
+	width: 407px;
+	height: 500px;
+
+	margin: auto;
+}
+.createsp input,.createsp textarea{
+	width: 200px;
+	height: 30px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.createsp td{
+	text-align: left;
+	color: green;
+	font-size: 18px;
+}
+.createsp select{
+	width: 130px;
+	height: 30px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.createsp h2{
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+.createsp #submit{
+	width: 150px;
+	height: 40px;
+	border-radius: 5px;
+	background: green;
+	color: white;
+	border: 1px solid green;
+	margin-top: 20px;
+
+}
+.createsp #submit:hover{
+	cursor: pointer;
+}
+.createsp textarea{
+	height: 150px;
+}
+
+/*sửa danh sách của người dùng*/
+#nguoidungsua tr td input{
+	width: 250px;
+	height: 35px;
+}
+#nguoidungsua tr td te

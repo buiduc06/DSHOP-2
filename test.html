@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+body{
+background-color: black;
+}
+img{
+    height: 300px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s; 
+}
+
+
+/* Standard syntax */
+@keyframes example {
+    0%   {right:0px; top:0px;}
+    50%  {right:41000px; top:0px;}
+    100%  {right:20000px; top:0px;}
+/*    40%  {right:10914px; top:0px;}
+    60%  {right:16371px; top:0px;}
+    80%  {right:21852px; top:0px;}*/
+/*    50%  {left:200px; top:200px;}*/
+/*    75%  {left:0px; top:200px;}
+    100% left:0px; top:0px;}*/
+}
+.col1{
+    width: 436px;
+    height: 550px;
+    background-color: black;
+    float: left;
+    z-index: 1000;
+    position: fixed;
+    left: 0px;
+    top: 0;
+
+}.col2{
+    width: 687px;
+    height: 550px;
+background-color: black;
+    float: right;
+    z-index: 1000;
+    position: fixed;
+    right: 0px;
+    top: 0;
+}
+</style>
+</head>
+<body>
+
+<div class="col1">aaa</div>
+<div>
+<img src="http://teamgeek.co.za/static/img/services/emblem_sprite.png" alt="">
+</div>
+
+<div class="col2">aa</div>
+</body>
+</html>
