@@ -51,7 +51,7 @@ $notification=array();
 
 if (isset($_POST['check'])) {
 require_once 'admin/dbconnect.php';
-$conn=getconnection();
+$conn = getconnection();
 $query="select * from users";
 $stmt=$conn->prepare($query);
 $stmt->execute();
